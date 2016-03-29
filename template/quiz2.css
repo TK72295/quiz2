@@ -4,12 +4,33 @@ html body {
 	background: #E7E7E7;
 }
 
+button{
+	background-color: red;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 a {
 	color: #0078A0;
 }
 
+.click{
+	background-color: yellow;
+	border: dotted;
+	border-radius: 5px;
+}
+
+.section2{
+	text-align: center;
+}
+
+.mouseover{
+	background-color: red;
+	border-radius: 20px;
+}
+
 .content {
-	text-align: center
+	text-align: center;
 	padding: 0 15% 20px;
 }
 
@@ -17,17 +38,20 @@ a {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 20px 0;
+}
 
-
-content form {
+.content form {
+	background-color: yellow;
+	border-radius: 20px;
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
 }
 
-.content form input {
+.content  form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
+	border-radius: 5px;
 	color: #107394;
 	background: transparent;
 	magrin-bottom: 15px;
